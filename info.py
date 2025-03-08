@@ -111,8 +111,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002453752803').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "7"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/MM_4KFLIXTG8")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/MM_4KFLIXTG8")
+S_GROUP = environ.get('S_GROUP',"https://t.me/+DNbSt0qyuEw3OWJl")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/+DNbSt0qyuEw3OWJl")
 MOVIE_GROUP = environ.get('MOVIE_GROUP',"https://t.me/+tpJHML0bwrI5MGJl")
 #Must change this link to work redirect (FILE_FORWORD)
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+j2j7BnvMq98xMjBl")
