@@ -42,14 +42,13 @@ class evamaria(Client):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
-
+API_ID = int(environ.get('API_ID', '2157492'))
+API_HASH = environ.get('API_HASH', '8e0c7ee5dd95b625e0f9a8e39d107e0c')
+BOT_TOKEN = environ.get('BOT_TOKEN', "1996476799:AAFTOociJzeL4tBPJB19KkZVWXBSS4ZBKFI")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://envs.sh/sg.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/0200ac4ddac95e5de1f99-57ce81707fd739b33d.jpg')).split()
 NOR_IMG = environ.get('NOR_IMG', "https://envs.sh/sg.jpg")
 SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/b58f576fed14cd645d2cf.jpg")
 
@@ -74,8 +73,8 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://flix1:flix1@cluster0.m9ime.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "flix1")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Joker:joker@cluster0.116kh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Haridev')
 MONGO_URL = os.environ.get('MONGO_URL', "")
 
